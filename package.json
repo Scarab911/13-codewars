@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "node": "nodemon",
+    "dev": "live-server --port=3000",
+    "node": "nodemon .",
     "test": "jest --watchAll"
   },
   "keywords": [],
@@ -11,7 +12,7 @@
   "license": "MIT",
   "description": "",
   "devDependencies": {
-    "jest": "^27.0.1"
+    "live-server": "^1.2.1"
   },
   "dependencies": {}
 }
